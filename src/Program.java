@@ -18,6 +18,8 @@ public class Program {
         System.out.println("Mes" + mes);
         int dia = cal.get(Calendar.DAY_OF_MONTH);
         System.out.println("Dia" + dia);
+        int ano = cal.get(Calendar.YEAR);
+        System.out.println("Ano" + ano);
 
     }
 }
