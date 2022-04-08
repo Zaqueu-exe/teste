@@ -21,6 +21,7 @@ public class Program {
         int ano = cal.get(Calendar.YEAR);
         System.out.println("Ano" + ano);
         System.out.println("Fim");
+        System.out.println("--------------------------------------");
 
     }
 }
