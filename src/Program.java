@@ -16,5 +16,8 @@ public class Program {
         cal.setTime(x1);
         int mes = cal.get(Calendar.MONTH);
         System.out.println("Mes" + mes);
+        int dia = cal.get(Calendar.DAY_OF_MONTH);
+        System.out.println("Dia" + dia);
+
     }
 }
