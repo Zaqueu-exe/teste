@@ -1,5 +1,6 @@
 import java.text.SimpleDateFormat;
 import java.time.Instant;
+import java.util.Calendar;
 import java.util.Date;
 
 public class Program {
@@ -11,5 +12,9 @@ public class Program {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date x1 = Date.from(Instant.parse("2014-07-12T15:15:15Z"));
         System.out.println(sdf.format(x1));
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(x1);
+        int mes = cal.get(Calendar.MONTH);
+        System.out.println("Mes" + mes);
     }
 }
