@@ -20,6 +20,7 @@ public class Program {
         System.out.println("Dia" + dia);
         int ano = cal.get(Calendar.YEAR);
         System.out.println("Ano" + ano);
+        System.out.println("Fim");
 
     }
 }
